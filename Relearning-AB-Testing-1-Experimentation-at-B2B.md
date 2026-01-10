@@ -5,9 +5,9 @@ This is a note and take away which came from after watched the wonderful talk [U
 <img width="485" height="293" alt="image" src="https://github.com/user-attachments/assets/b019a8a1-abec-4f4f-b040-61e033e163de" />
 
 
-0. Experimentation in B2B is valuable and important 
+## 0. Experimentation is as valuable and important in B2B as it is in B2C.
 
-1. Organizational-level randomization
+## 1. Organizational-level randomization
 
    Smaller sample sizes
 
@@ -17,22 +17,47 @@ This is a note and take away which came from after watched the wonderful talk [U
 
    sparse and lagging metrics
 
-2. Remember the Fundamentals
+## 2. Remember the Experimentation Fundamentals
 
-   Good metrics —— Using lead metrics instead of ARR
+### Good metrics
 
-   Don’t forget Power analysis
+It is better to use fundamental feature metrics, leading metrics, or upper-funnel metrics instead of lagging indicators like ARR or retention rate.
 
-     <img width="402.5" height="242.5" alt="image" src="https://github.com/user-attachments/assets/f4a3830d-e12c-46f3-943e-d436faebdc20" />
+### Power analysis
 
-   Hypothesis
+Power analysis is crucial and should not be overlooked in experimental design.
+We use power analysis to help estimate effect sizes and determine the required sample size.
 
-4. Advanced techniques
+There are several excellent tools for sample size calculation; inspired by them, I generated a [chart](https://github.com/bchaoss/Power-Analysis-viz/tree/main) to visualize the relationship between statistical power, sample size, and other metrics.
 
-   Values of CUPED
+<img width="402.5" height="242.5" alt="image" src="https://github.com/user-attachments/assets/f4a3830d-e12c-46f3-943e-d436faebdc20" />
 
-   Stratified sampling
+However, B2B has its own limitations regarding sample size, which may lead us to other approaches to increase statistical power, such as the variance reduction techniques discussed in the next section.
 
-   PSM
+### Hypothesis
 
-   Heterogeneous reporting
+## 3. Advanced techniques
+
+There are some advanced techniques that may be applied more effectively in B2B environments:
+
+### Value of CUPED: Variance Reduction
+
+CUPED might be more effective in B2B because B2B users/organizations exhibit more consistent behavior than B2C, making a linear relationship between pre-test and testing metrics more likely.
+
+Consequently, CUPED helps us decrease the required sample size by reducing variance.
+
+There are also other techniques available to reduce variance.
+
+### Bayes
+
+Using a Bayesian perspective to avoid the trade-off debate between significance levels and statistical power is a viable choice that applies well to B2B contexts.
+
+### Stratified sampling
+
+### Quasi-experimentation
+
+* Geo-Lift
+
+* Synthetic control
+
+### Heterogeneous reporting
