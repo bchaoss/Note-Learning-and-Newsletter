@@ -7,7 +7,18 @@ This is a note and take away which came from after watched the wonderful talk [U
 
 ## 0. Experimentation is as valuable and important in B2B as it is in B2C.
 
+Large-scale A/B testing in the B2C internet industry is a privilege of having massive traffic and data.
+
+In the pharmaceutical industry, researchers have relied on hundreds (or even just dozens) of samples  to find statistical evidence for almost a century.
+
+In that light, B2B can certainly conduct scientific and effective experiments, and uncover valuable insights as well.
+
+
 ## 1. Challenges at B2B Testing
+
+B2B experiments face a complex set of unique challenges. 
+
+These challenges mainly come from the nature of B2B transactions, the fat-tailed distribution of companies, and the slow movement of business
 
 ### Organizational-level randomization
 
