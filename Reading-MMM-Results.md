@@ -1,4 +1,4 @@
-# How We Reading MMM Results
+# How We Read MMM Results
 
 *Rethinking channel ROI, volume scale, and Trade-offs — for Budget Decisions.*
 
@@ -53,10 +53,22 @@ We can also add bubble size to represent Media Spend, bringing cost into the sam
 
 Furthermore, this holistic view should be combined with marginal ROI curve analysis by each channel, to identify where we are hitting diminishing returns and how to precisely reallocate the budget.
 
-## How We Reading MMM Results
+## How We Read MMM Results
 
-Bar charts focus on channel efficiency, scatter plots highlight scale versus efficiency, and bubble charts bring budget risk into the picture.
-Depending on the decision stage, one view may be more helpful than others.
+Bar charts focus on channel efficiency, scatter plots highlight scale versus efficiency, and bubble charts bring budget risk into the picture. Depending on the decision stage, one view may be more helpful than others.
 
-Essentially, I realize that the real value of MMM is not about ranking channels from best to worst.
+Essentially, I realize that the real value of MMM is not about ranking channels from best to worst. 
 It’s about revealing the structural trade-offs behind the numbers.
+
+In business analysis and real budget discussions, we are usually balancing at least three dimensions:
+
+* Efficiency (ROI): How much revenue gets back for every $1 marketing spend
+* Scale (Contributed Volume): How important a channel contributes to total business
+* Cost Structure (Spend level / marginal cost): How much marginal budget is required
+  
+Then a suitable visualization of MMM could help us understand and answer the ‘what-if’ question in moving the budget.
+
+---
+
+Would love to hear your thoughts and experiences.
+
