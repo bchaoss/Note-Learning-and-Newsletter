@@ -8,3 +8,4 @@ Any insights or feedback are greatly appreciated.
 * [Identify 80/20 Key Contributors of Metric Variance in Google Sheet Template](https://bchaoss.substack.com/p/identify-key-contributors-of-metric)
 * [Power Analysis visualization in A/B testing](https://github.com/bchaoss/Power-Analysis-viz)
 * [Relearning AB Testing 1: Experimentation at B2B](Relearning-AB-Testing-1-Experimentation-at-B2B.md)
+* [How We Reading MMM Results: ROI and Scale](Reading-MMM-Results.md)
