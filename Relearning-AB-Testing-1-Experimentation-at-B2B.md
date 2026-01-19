@@ -7,15 +7,46 @@ This is a note and take away which came from after watched the wonderful talk [U
 
 ## 0. Experimentation is as valuable and important in B2B as it is in B2C.
 
-## 1. Organizational-level randomization
+## 1. Challenges at B2B Testing
 
-   Smaller sample sizes
+### Organizational-level randomization
 
-   Group matching
+In B2B SaaS, we need to **randomize by organization** rather than by individual user level.
+Since coworkers collaborate and share screens, assigning different versions to people in the same office leads to 'spillover' (group contamination) and a mismatch between experimental and analytical units.
 
-   right-skewed metrics
+And for non-SaaS B2B, data is typically only available at the account level.
 
-   sparse and lagging metrics
+<img width="372" height="167" alt="image" src="https://github.com/user-attachments/assets/3572fedb-7959-4fc7-98d1-663ad476522b" />
+
+**Both scenarios inevitably lead to small sample size experiments, which further presents two challenges following: *group imbalance and underpowered experiments.***
+
+### Imbalanced randomization
+
+In small-sample B2B experiments, simple random assignment is highly prone to imbalance. For example, there  is a high chance of assigning the only two super-large ‘whale’ accounts to the same group, creating a massive data skew.
+
+<img width="518" height="264" alt="image" src="https://github.com/user-attachments/assets/37448e8a-c81d-42b1-bad2-dd710420955d" />
+
+
+To counter this, stratified sampling is recommended. By **grouping accounts by company size/revenue or industry before assignment**, we ensure that the experimental arms are truly comparable.
+
+<img width="518" height="264" alt="image" src="https://github.com/user-attachments/assets/228af113-247b-4f5b-905a-ad24b3cd7d69" />
+
+
+### Statistical underpowering
+
+We may recall the positive relationship between statistical power and sample size. 
+
+However, given the limited sample size in B2B, it becomes harder to detect even meaningful improvements. The experiment may end up 'underpowered,' meaning we **might miss a successful feature** just because the data is too “noisy“.
+
+In such cases, it is essential to return to basics, prioritizing **Power Analysis** (covered next), and **advanced methods like CUPED** could be helpful (covered in the following section).
+By reducing metric variance (noise), CUPED allows us to achieve statistical power even when our sample size is limited.
+
+
+### Low-Sensitivity metrics: Sparse and Lagging
+
+### Right-skewed distribution: Fat-tailed
+
+
 
 ## 2. Remember the Experimentation Fundamentals
 
