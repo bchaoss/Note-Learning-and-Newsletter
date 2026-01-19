@@ -1,6 +1,6 @@
-# How we Reading MMM Results
+# How We Reading MMM Results
 
-*Rethinking ROI, Contribution %, and Trade-offs — Without Oversimplifying Budget Decisions.*
+*Rethinking channel ROI, volume scale, and Trade-offs — for Budget Decisions.*
 
 ---
 
@@ -38,10 +38,25 @@ So maybe we should rephrase the question:
 
 <img width="499" height="355" alt="image" src="https://github.com/user-attachments/assets/8a8ce68e-4787-4dd4-899d-582b02b98bcb" />
 
-The scatter plot of Contributed Sales Volume vs. ROI can help distinguish between major sales drivers and highly efficient players. By four quadrants we can categorize channels based on their portfolio:
+The scatter plot of Contributed Sales Volume vs. ROI can help distinguish between major sales drivers and highly efficient players. We can categorize channels by four quadrants:
+
+* High Volume / High ROI: **Growth engines**, rare top-tier performers. (Top-Right)
+* High Volume / Low ROI: **Core foundations** that may need efficiency tuning. (Bottom-Right)
+* Low Volume / High ROI: **Efficient niches** with potential for scaling. (Top-Left)
+* Low Volume / Low ROI: **"Underperformer", or Ecosystem supporters** like upper-funnel or brand-building channels. (Bottom-Left)
 
 We can also add bubble size to represent Media Spend, bringing cost into the same view:
 
+*A Bubble Chart: Contributed Sales Volume vs. ROI with Media Spend*
+
 <img width="499" height="355" alt="image" src="https://github.com/user-attachments/assets/cebdbf67-067d-4d44-b76c-3bc492e844fd" />
 
+Furthermore, this holistic view should be combined with marginal ROI curve analysis by each channel, to identify where we are hitting diminishing returns and how to precisely reallocate the budget.
 
+## How We Reading MMM Results
+
+Bar charts focus on channel efficiency, scatter plots highlight scale versus efficiency, and bubble charts bring budget risk into the picture.
+Depending on the decision stage, one view may be more helpful than others.
+
+Essentially, I realize that the real value of MMM is not about ranking channels from best to worst.
+It’s about revealing the structural trade-offs behind the numbers.
