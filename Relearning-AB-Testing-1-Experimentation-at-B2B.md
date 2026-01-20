@@ -92,6 +92,8 @@ There are some advanced techniques that may be applied more effectively in B2B e
 
 CUPED might be more effective in B2B because B2B users/organizations exhibit more consistent behavior than B2C, making a linear relationship between pre-test and testing metrics more likely.
 
+<img width="609" height="307" alt="image" src="https://github.com/user-attachments/assets/5601e6ea-0233-47c8-b6a2-27260e9dab13" />
+
 Consequently, CUPED helps us decrease the required sample size by reducing variance.
 
 There are also other techniques available to reduce variance.
@@ -100,7 +102,7 @@ There are also other techniques available to reduce variance.
 
 Using a Bayesian perspective to avoid the trade-off debate between significance levels and statistical power is a viable choice that applies well to B2B contexts.
 
-### Stratified sampling
+To learn more about Bayesian Experimentation, catch this other talk [Going Bayes: Shifting our Testing Methods to Reflect our Priorities](https://youtu.be/CdPHfj0bHcQ?si=SppZ3Z5LvD11u6tG) from the Data Council.
 
 ### Quasi-experimentation
 
