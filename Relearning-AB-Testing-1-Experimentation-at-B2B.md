@@ -86,7 +86,7 @@ However, B2B has its own limitations regarding sample size, which may lead us to
 
 ## 3. Advanced techniques
 
-There are some advanced techniques that may be applied more effectively in B2B environments:
+There are some advanced techniques that might be applied more effectively in B2B environments:
 
 ### Value of CUPED: Variance Reduction
 
@@ -100,7 +100,7 @@ There are also other techniques available to reduce variance.
 
 ### Bayes
 
-Using a Bayesian perspective to avoid the trade-off debate between significance levels and statistical power is a viable choice that applies well to B2B contexts.
+Using a Bayesian perspective is a viable choice that applies well to B2B contexts and avoid the trade-off debate between significance levels and statistical power due to small sample size.
 
 To learn more about Bayesian Experimentation, catch this other talk [Going Bayes: Shifting our Testing Methods to Reflect our Priorities](https://youtu.be/CdPHfj0bHcQ?si=SppZ3Z5LvD11u6tG) from the Data Council.
 
