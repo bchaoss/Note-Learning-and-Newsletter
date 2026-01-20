@@ -66,6 +66,13 @@ By reducing metric variance (noise), CUPED allows us to achieve statistical powe
 
 ### Right-skewed distribution: Fat-tailed
 
+B2B data distribution is notoriously **right-skewed**; a few "whale" accounts could drive the vast majority of revenue, while most small customers sit in the long tail (the **Pareto 80/20** principle).
+
+Common B2C methods like Winsorization or removing outliers don't really apply here, as these "outliers" are often the most important part of the business rather than noise. 
+
+This extreme variance also makes it difficult for simple averages to represent the true performance of a sample group.
+
+<img width="617" height="267" alt="image" src="https://github.com/user-attachments/assets/b8fcb3dd-c5f5-4a3c-b554-e93ded589a41" />
 
 
 ## 2. Remember the Experimentation Fundamentals
