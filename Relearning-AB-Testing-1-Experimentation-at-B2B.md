@@ -134,3 +134,4 @@ Dividing customers by revenue, size, geography, or industry reveals critical det
 
 Even further, reporting by segment lets us focus impact on the specific sectors align with our strategic goals.
 
+<img width="615" height="265" alt="image" src="https://github.com/user-attachments/assets/e00ca522-75c3-490e-9bfc-eca8e1a36d32" />
