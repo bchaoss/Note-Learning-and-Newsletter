@@ -62,7 +62,14 @@ In such cases, it is essential to return to basics, prioritizing **Power Analysi
 By reducing metric variance (noise), CUPED allows us to achieve statistical power even when our sample size is limited.
 
 
-### Low-Sensitivity metrics: Sparse and Lagging
+### Low-Sensitivity metrics: Lagging and Sparse
+
+B2B sales cycles move slowly, and key metrics like annual renewal rates are often too lagging to be influenced within the typical window of an experiment.
+
+Additionally, compared to high-frequency behaviors in B2C, conversion events in the B2B funnel are much more rare (“sparse”).
+
+These factors make it difficult to detect statistical significance for AB tests, which are typically used to capture quick, short-term changes.
+
 
 ### Right-skewed distribution: Fat-tailed
 
