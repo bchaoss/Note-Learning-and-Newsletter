@@ -127,3 +127,10 @@ To learn more about Bayesian Experimentation, catch this other talk [Going Bayes
 * Synthetic control
 
 ### Heterogeneous reporting
+
+In B2B, segmentation matters a lot more than in B2C. Before experiments we use stratified sampling, and afterward we also need heterogeneous reporting to interpret the results.
+
+Dividing customers by revenue, size, geography, or industry reveals critical details. For example, if a new feature is positive for SMBs but disliked by Enterprise clients, that impacts our decision-making.
+
+Even further, reporting by segment lets us focus impact on the specific sectors align with our strategic goals.
+
