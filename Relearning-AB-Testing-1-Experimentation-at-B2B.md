@@ -63,7 +63,13 @@ By reducing metric variance (noise), CUPED allows us to achieve statistical powe
 
 ### Good metrics
 
-It is better to use fundamental feature metrics, leading metrics, or upper-funnel metrics instead of lagging indicators like ARR or retention rate.
+Select the right metrics:
+
+* **Start with operational metrics**: Use basics like Button CTR as a starting point. It helps verify that the experiment is set up correctly and users are actually interacting with the new features.
+* **Expand to business and North Star metrics**: Further move toward core business metrics. It’s better to select a balanced set of metrics across the entire business chain.
+* **Use proxy metrics for sensitivity**: Sensitive proxy metrics provide faster feedback. Things like Feature Activation Rate / Time to First Value rather than lagging metrics like Retention / Renewal Rate.
+* **Allow for "Directional" checks**: If the core metric (like revenue) hasn't reached significance, look at whether it directionally aligns with proxy metrics to confirm we're on the right track.
+
 
 ### Power analysis
 
