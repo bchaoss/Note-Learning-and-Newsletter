@@ -31,6 +31,15 @@ And for non-SaaS B2B, data is typically only available at the account level.
 
 **Both scenarios inevitably lead to small sample size experiments, which further presents two challenges following: *group imbalance and underpowered experiments.***
 
+Before addressing those, there are a few things to keep in mind when dealing metrics at organization-level:
+
+* Product interactions still happen at the user level, so we need to **normalize user-level metrics into org-level metrics** by dividing the org total by the user count.
+
+  And the choice of denominator matters (like total accounts, total registered accounts, or DAU); this will change how we interpret the results.
+* Since we are dealing with ratio metrics where the numerator and denominator are often correlated, the **Delta Method** should be used to calculate **sample variance and standard error**.
+* One downside of ratio metrics is that they can hide business details. **Reporting the numerator and denominator separately** helps us better understand the experiment's impact.
+
+
 ### Imbalanced randomization
 
 In small-sample B2B experiments, simple random assignment is highly prone to imbalance. For example, there  is a high chance of assigning the only two super-large ‘whale’ accounts to the same group, creating a massive data skew.
