@@ -139,6 +139,19 @@ Even further, reporting by segment lets us focus impact on the specific sectors 
 
 <img width="615" height="265" alt="image" src="https://github.com/user-attachments/assets/e00ca522-75c3-490e-9bfc-eca8e1a36d32" />
 
+To build on the talk's points, here is my take on how to conduct heterogeneous analysis (***with the example from the talk, chart above***):
+
+* **Reports Confidence Intervals**: Since heterogeneous analysis breaks into smaller subgroups, it is wiser to show confidence intervals rather than a single point estimate. And for scenarios with smaller sample sizes, Bootstrap CI may be more robust than the standard formulas.
+(***For example, the chart above clearly shows the CIs across different company sizes for the AI Assistant feature.***)
+
+* **Focus on Directional Consistency**: Evaluate if the effect is uniform across all segments. Where results conflict or show outliers, perform a deep-dive analysis to explain.
+(***Unlike the overall positive reading, the Enterprise clients showed a neutral result and a broader CI. That’s where we need to investigate further.***)
+
+* **Leverage Qualitative Insights**: One of the greatest advantages of B2B is being close to the customers. Using qualitative methods (user research, etc.) helps explain subgroup variances and validates whether the user’s journey truly reflects our hypothesized business logic, understanding the “why”.
+(***The data suggests Enterprise users might dislike the feature, but why? Time to talk to our clients!***)
+
+
+
 ### Quasi-experimentation
 
 * Geo-Lift
