@@ -117,7 +117,7 @@ CUPED might be more effective in B2B because B2B users/organizations exhibit mor
 
 <img width="609" height="307" alt="image" src="https://github.com/user-attachments/assets/5601e6ea-0233-47c8-b6a2-27260e9dab13" />
 
-Consequently, CUPED helps us decrease the required sample size by reducing variance.
+Consequently, CUPED helps us decrease the required sample size by reducing variance. (Find more details on how CUPED works and sample size calculation in this article: [How to plan test duration when using CUPED](https://www.statsig.com/blog/how-to-plan-test-duration-cuped).)
 
 There are also other techniques available to reduce variance.
 
@@ -127,11 +127,6 @@ Using a Bayesian perspective is a viable choice that applies well to B2B context
 
 To learn more about Bayesian Experimentation, catch this other talk [Going Bayes: Shifting our Testing Methods to Reflect our Priorities](https://youtu.be/CdPHfj0bHcQ?si=SppZ3Z5LvD11u6tG) from the Data Council.
 
-### Quasi-experimentation
-
-* Geo-Lift
-
-* Synthetic control
 
 ### Heterogeneous reporting
 
@@ -143,6 +138,12 @@ Even further, reporting by segment lets us focus impact on the specific sectors 
 
 <img width="615" height="265" alt="image" src="https://github.com/user-attachments/assets/e00ca522-75c3-490e-9bfc-eca8e1a36d32" />
 
+### Quasi-experimentation
+
+* Geo-Lift
+
+* Synthetic control
+  
 ## Summary
 
 Although this talk mainly focuses on the product-led B2B context, the insights are also well-applied to sales/AM-driven, or marketing-driven B2B industries, and can even offer valuable takeaways for B2C experimentation.
