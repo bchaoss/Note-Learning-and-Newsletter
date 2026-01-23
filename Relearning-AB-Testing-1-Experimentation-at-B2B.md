@@ -142,7 +142,7 @@ Even further, reporting by segment lets us focus impact on the specific sectors 
 To build on the talk's points, here is my take on how to conduct heterogeneous analysis (***with the example from the talk, chart above***):
 
 * **Reports Confidence Intervals**: Since heterogeneous analysis breaks into smaller subgroups, it is wiser to show confidence intervals rather than a single point estimate. And for scenarios with smaller sample sizes, Bootstrap CI may be more robust than the standard formulas.
-(***For example, the chart above clearly shows the CIs across different company sizes for the AI Assistant feature.***)
+(***For example, the chart above clearly shows the CIs across different company sizes of the AI Assistant feature.***)
 
 * **Focus on Directional Consistency**: Evaluate if the effect is uniform across all segments. Where results conflict or show outliers, perform a deep-dive analysis to explain.
 (***Unlike the overall positive reading, the Enterprise clients showed a neutral result and a broader CI. That’s where we need to investigate further.***)
