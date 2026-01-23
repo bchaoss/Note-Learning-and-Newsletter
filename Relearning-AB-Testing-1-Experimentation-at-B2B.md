@@ -61,6 +61,7 @@ However, given the limited sample size in B2B, it becomes harder to detect even 
 In such cases, it is essential to return to basics, prioritizing **Power Analysis** (covered next), and **advanced methods like CUPED** could be helpful (covered in the following section).
 By reducing metric variance (noise), CUPED allows us to achieve statistical power even when our sample size is limited.
 
+Besides underpowered experiments, the talk also mentioned the value of non-inferiority testing (to tell if a new version is no worse than the existing one) and qualitative insights (e.g., user research, observational data, and anecdotal evidence), which add context to the experiment results to show the full story.
 
 ### Low-Sensitivity metrics: Lagging and Sparse
 
