@@ -191,7 +191,8 @@ When we can’t find a paired control group, we can build one using Synthetic Co
 
 And it also works with other grouping method, as we create a virtual control and are not limited to geo-based ones.
 
-
+There are many good resources on the method of synthetic control (like [this Youtube video](https://www.youtube.com/watch?v=V7S1kQY2BTM) and [this Medium article](https://medium.com/bbc-studios-data-and-engineering/using-causal-inference-for-measuring-marketing-impact-how-bbc-studios-utilises-geo-holdouts-and-c9a8dac634c2?source=email-bdf8dfeecdc7-1748544218574-digest.weekly-1ee5fc6f97a2-c9a8dac634c2----7-98------------------a063e9f0_1022_47fc_b594_d49731b500b7-1)), so I won’t go into details here. 
+Instead, I’d like to share a practical case I worked on in B2B.
   
 ## Summary
 
