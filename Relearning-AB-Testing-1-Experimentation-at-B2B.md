@@ -154,9 +154,34 @@ To build on the talk's points, here is my take on **how to conduct heterogeneous
 
 ### Quasi-experimentation
 
-* Geo-Lift
+Here is a part I want to add is also valuable for B2B testing which is not mentioned in the talk.
 
-* Synthetic control
+There are always areas that A/B testing can’t cover, whether it’s due to B2B experimental hurdles we talked about or fields where controlled tests just aren't possible. In these cases, we can use techniques called *"Quasi-Experimentation"* to help us gain causal inferences and insights.
+
+#### Geo-Lift
+
+Beyond controlled randomization, there are “naturally occurring groups” that we can take advantage of. Evaluating treatment lift by geographic regions is a common approach known as Geo-Lift, which is widely used by marketing industries.
+
+For marketing-driven B2B or any B2B companies looking to improve their upper-funnel performance, Geo-lift is a reliable method worth considering.
+
+Here are a few tips for Geo-lift:
+1. Select larger geographic units to minimize spillover effects;
+2. Use long historical data to ensure parallel trends;
+3. Apply rigorous statistical analysis.
+
+For more details, check out this doc by Datadog on [Statistical Assumptions and Best Practices for Geo-lift](https://docs.geteppo.com/geolift/assumptions_best_practices/).
+
+And in addition to marketing, other B2B operations can also be tested using geographic segments:
+- Marketing: Offline events, OOH (by location); and online digital ads (by IP).
+- Sales Incremental Tests: Evaluating the impact of Sales Headcount or Field Sales expansions.
+- GTM & Pricing: Testing new market entry strategies and localized product pricing.
+- Channel & Partner Marketing: Assessing the effectiveness of incentives for channel partners.
+
+**Why Geo ?**
+
+*The real point isn't just about maps; it's about using natural tags like location to group customers when we can’t control who sees what. While it’s technically easy to split users randomly in a CRM, doing so in B2B might create messy real-world problems like price complaints or sales friction. Geographic separation acts as a "natural barrier" that keeps the test groups clean and easy to explain.*
+
+#### Synthetic control
   
 ## Summary
 
