@@ -182,6 +182,16 @@ And in addition to marketing, other B2B operations can also be tested using geog
 *The real point isn't just about maps; it's about using natural tags like location to group customers when we can’t control who sees what. While it’s technically easy to split users randomly in a CRM, doing so in B2B might create messy real-world problems like price complaints or sales friction. Geographic separation acts as a "natural barrier" that keeps the test groups clean and easy to explain.*
 
 #### Synthetic control
+
+While geo separation works well, there is one challenge we have not mentioned: finding the right control group pair.
+
+This can be difficult in a B2B context with a small sample pool, or when changes happen unexpectedly and we have to rely on after-the-fact analysis.
+
+When we can’t find a paired control group, we can build one using Synthetic Control. In simple terms, this "data science" method is just a weighted average. Since we can’t randomize the groups or find a natural twin, we "create" a control group by combining several similar groups to mimic the behavior of our test group.
+
+And it also works with other grouping method, as we create a virtual control and are not limited to geo-based ones.
+
+
   
 ## Summary
 
