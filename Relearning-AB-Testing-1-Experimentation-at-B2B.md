@@ -192,8 +192,19 @@ When we can’t find a paired control group, we can build one using Synthetic Co
 And it also works with other grouping method, as we create a virtual control and are not limited to geo-based ones.
 
 There are many good resources on the method of synthetic control (like [this Youtube video](https://www.youtube.com/watch?v=V7S1kQY2BTM) and [this Medium article](https://medium.com/bbc-studios-data-and-engineering/using-causal-inference-for-measuring-marketing-impact-how-bbc-studios-utilises-geo-holdouts-and-c9a8dac634c2?source=email-bdf8dfeecdc7-1748544218574-digest.weekly-1ee5fc6f97a2-c9a8dac634c2----7-98------------------a063e9f0_1022_47fc_b594_d49731b500b7-1)), so I won’t go into details here. 
-Instead, I’d like to share a practical case I worked on in B2B.
-  
+Instead, I’d like to share **a practical case I worked on in B2B**:
+
+##### Case of B2B synthetic control
+*In this case, **the business question was to understand the incremental sales impact of upgrading distributor stores into branded specialty stores**. The model was B2B2C: distributors operated the stores, while the brand covered a one-off renovation cost.*
+
+*The evaluation was not straightforward. Store upgrades were voluntarily by distributors and timing also varied, making random assignment or direct control impossible. Furthermore, we only had sparse sell-in data at the distributor level, with no customer-level or sell-out data. To make the analysis feasible, we limited the sample to stores with sufficient pre- and post-upgrade historical data and applied feature engineering. We filtered stores within the same province but different cities to ensure similar macro conditions while avoiding direct competition. We conducted pre-trend checks, and applied an adjustment factor for the natural lift from regular distribution to exclusive stores.*
+
+*To make this work, I worked with the team to implement a **staggered adoption design**. Stores were grouped by their upgrade start dates, and for each cohort I built a time-aligned control pool (including stores that upgraded later but were still untreated during the post period). The synthetic controls were picked from the pools based on our model matching cretias. I then translated the logic into batch-based SQL pipelines to handle large volumes efficiently.*
+
+*Taken together, we helped our client **estimate the incremental sales lift, avg. payback period, and long-term ROI**.*
+
+*There were also areas we did not fully address: Bootstrap confidence intervals could be added to quantify uncertainty. Selection bias remains a concern, as distributors who chose to upgrade were often more proactive; PSM could help mitigate this. And if feasible, working with a few close distributors to obtain sell-out data would allow for further research.*
+
 ## Summary
 
 Although this talk mainly focuses on the product-led B2B context, the insights are also well-applied to sales/AM-driven, or marketing-driven B2B industries, and can even offer valuable takeaways for B2C experimentation.
